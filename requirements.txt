@@ -1,6 +1,4 @@
-streamlit
-langchain
-langchain_community
+
 chromadb
 langchain-huggingface
 sentence-transformers
@@ -15,3 +13,4 @@ langchain-openai==0.1.6
 faiss-cpu==1.8.0
 python-dotenv==1.0.1
 tiktoken==0.7.0
+
