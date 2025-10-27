@@ -1,0 +1,829 @@
+{
+  "doshas": [
+    {
+      "name": "Vata",
+      "elements": ["Air", "Ether"],
+      "qualities": ["Dry", "Light", "Cold", "Rough", "Subtle", "Mobile"],
+      "governing_principle": "Movement and Communication",
+      "primary_functions": "Governs breathing, circulation, nerve impulses, muscle contractions, and elimination. Controls creativity, flexibility, and enthusiasm.",
+      "balanced_traits": [
+        "Creative",
+        "Energetic",
+        "Enthusiastic",
+        "Mentally Agile",
+        "Flexible",
+        "Quick Learner"
+      ],
+      "imbalance_symptoms": {
+        "physical": [
+          "Dry skin",
+          "Constipation",
+          "Gas",
+          "Bloating",
+          "Cracking joints",
+          "Insomnia",
+          "Fatigue"
+        ],
+        "mental_emotional": [
+          "Anxiety",
+          "Worry",
+          "Fear",
+          "Restlessness",
+          "Spaciness",
+          "Indecisiveness"
+        ]
+      }
+    },
+    {
+      "name": "Pitta",
+      "elements": ["Fire", "Water"],
+      "qualities": ["Oily", "Sharp", "Hot", "Light", "Spreading", "Liquid"],
+      "governing_principle": "Transformation and Metabolism",
+      "primary_functions": "Governs digestion, absorption, assimilation, and body temperature. Controls intelligence, understanding, and ambition.",
+      "balanced_traits": [
+        "Intelligent",
+        "Confident",
+        "Courageous",
+        "Good Leader",
+        "Focused",
+        "Sharp-witted"
+      ],
+      "imbalance_symptoms": {
+        "physical": [
+          "Acid reflux",
+          "Heartburn",
+          "Skin rashes",
+          "Acne",
+          "Inflammation",
+          "Excessive sweating",
+          "Diarrhea"
+        ],
+        "mental_emotional": [
+          "Anger",
+          "Irritability",
+          "Frustration",
+          "Impatience",
+          "Criticism",
+          "Jealousy",
+          "Perfectionism"
+        ]
+      }
+    },
+    {
+      "name": "Kapha",
+      "elements": ["Earth", "Water"],
+      "qualities": [
+        "Heavy",
+        "Slow",
+        "Cool",
+        "Oily",
+        "Smooth",
+        "Dense",
+        "Stable"
+      ],
+      "governing_principle": "Structure and Lubrication",
+      "primary_functions": "Provides structure, stability, and lubrication to the body. Maintains immunity, strength, and endurance.",
+      "balanced_traits": [
+        "Calm",
+        "Compassionate",
+        "Loyal",
+        "Patient",
+        "Grounded",
+        "Nurturing"
+      ],
+      "imbalance_symptoms": {
+        "physical": [
+          "Weight gain",
+          "Congestion",
+          "Sinus issues",
+          "Lethargy",
+          "Excess mucus",
+          "Water retention"
+        ],
+        "mental_emotional": [
+          "Attachment",
+          "Greed",
+          "Possessiveness",
+          "Depression",
+          "Lack of motivation",
+          "Stubbornness"
+        ]
+      }
+    }
+  ],
+  "gunas": [
+    { "pair": ["Heavy (Guru)", "Light (Laghu)"] },
+    { "pair": ["Cold (Shita)", "Hot (Ushna)"] },
+    { "pair": ["Oily (Snigdha)", "Dry (Ruksha)"] },
+    { "pair": ["Slow (Manda)", "Sharp (Tikshna)"] },
+    { "pair": ["Stable (Sthira)", "Mobile (Chala)"] },
+    { "pair": ["Soft (Mridu)", "Hard (Kathina)"] },
+    { "pair": ["Clear (Vishada)", "Slimy (Picchila)"] },
+    { "pair": ["Smooth (Shlakshna)", "Rough (Khara)"] },
+    { "pair": ["Subtle (Sukshma)", "Gross (Sthula)"] },
+    { "pair": ["Liquid (Drava)", "Dense (Sandra)"] }
+  ],
+  "rasas": [
+    {
+      "name": "Sweet (Madhura)",
+      "elements": ["Earth", "Water"],
+      "qualities": ["Heavy", "Cooling", "Oily"],
+      "effects_on_doshas": {
+        "Vata": "pacifies",
+        "Pitta": "pacifies",
+        "Kapha": "aggravates"
+      }
+    },
+    {
+      "name": "Sour (Amla)",
+      "elements": ["Earth", "Fire"],
+      "qualities": ["Liquid", "Light", "Heating", "Oily"],
+      "effects_on_doshas": {
+        "Vata": "pacifies",
+        "Pitta": "aggravates",
+        "Kapha": "aggravates"
+      }
+    },
+    {
+      "name": "Salty (Lavana)",
+      "elements": ["Water", "Fire"],
+      "qualities": ["Heating", "Heavy", "Oily"],
+      "effects_on_doshas": {
+        "Vata": "pacifies",
+        "Pitta": "aggravates",
+        "Kapha": "aggravates"
+      }
+    },
+    {
+      "name": "Pungent (Katu)",
+      "elements": ["Fire", "Air"],
+      "qualities": ["Light", "Dry", "Heating"],
+      "effects_on_doshas": {
+        "Vata": "aggravates",
+        "Pitta": "aggravates",
+        "Kapha": "pacifies"
+      }
+    },
+    {
+      "name": "Bitter (Tikta)",
+      "elements": ["Air", "Ether"],
+      "qualities": ["Light", "Cooling", "Dry"],
+      "effects_on_doshas": {
+        "Vata": "aggravates",
+        "Pitta": "pacifies",
+        "Kapha": "pacifies"
+      }
+    },
+    {
+      "name": "Astringent (Kashaya)",
+      "elements": ["Air", "Earth"],
+      "qualities": ["Dry", "Cooling", "Heavy"],
+      "effects_on_doshas": {
+        "Vata": "aggravates",
+        "Pitta": "pacifies",
+        "Kapha": "pacifies"
+      }
+    }
+  ],
+  "symptoms": [
+    "Fatigue",
+    "Anxiety",
+    "Indigestion",
+    "Headache",
+    "Skin problems",
+    "Joint pain",
+    "Sleep disturbances"
+  ],
+  "foods": {
+    "fruits": [
+      {
+        "name": "Apples (cooked)",
+        "gunas": ["Light", "Moist"],
+        "rasas": ["Sweet"],
+        "effects_on_doshas": {
+          "Vata": "pacifies",
+          "Pitta": "pacifies",
+          "Kapha": "pacifies"
+        }
+      },
+      {
+        "name": "Avocado",
+        "gunas": ["Heavy", "Oily"],
+        "rasas": ["Sweet"],
+        "effects_on_doshas": {
+          "Vata": "pacifies",
+          "Pitta": "pacifies",
+          "Kapha": "aggravates"
+        }
+      },
+      {
+        "name": "Bananas (ripe)",
+        "gunas": ["Heavy", "Oily"],
+        "rasas": ["Sweet"],
+        "effects_on_doshas": {
+          "Vata": "pacifies",
+          "Pitta": "pacifies",
+          "Kapha": "aggravates"
+        }
+      },
+      {
+        "name": "Berries (sweet)",
+        "gunas": ["Light", "Moist"],
+        "rasas": ["Sweet", "Astringent"],
+        "effects_on_doshas": {
+          "Vata": "pacifies",
+          "Pitta": "pacifies",
+          "Kapha": "pacifies"
+        }
+      },
+      {
+        "name": "Grapes (red)",
+        "gunas": ["Moist", "Cooling"],
+        "rasas": ["Sweet"],
+        "effects_on_doshas": {
+          "Vata": "pacifies",
+          "Pitta": "pacifies",
+          "Kapha": "pacifies"
+        }
+      },
+      {
+        "name": "Pomegranate",
+        "gunas": ["Light", "Dry"],
+        "rasas": ["Astringent", "Sweet", "Sour"],
+        "effects_on_doshas": {
+          "Vata": "aggravates",
+          "Pitta": "pacifies",
+          "Kapha": "pacifies"
+        }
+      }
+    ],
+    "vegetables": [
+      {
+        "name": "Asparagus",
+        "gunas": ["Light", "Moist"],
+        "rasas": ["Sweet", "Bitter"],
+        "effects_on_doshas": {
+          "Vata": "pacifies",
+          "Pitta": "pacifies",
+          "Kapha": "pacifies"
+        }
+      },
+      {
+        "name": "Beets (cooked)",
+        "gunas": ["Heavy", "Moist"],
+        "rasas": ["Sweet"],
+        "effects_on_doshas": {
+          "Vata": "pacifies",
+          "Pitta": "pacifies",
+          "Kapha": "pacifies"
+        }
+      },
+      {
+        "name": "Carrots (cooked)",
+        "gunas": ["Light", "Moist"],
+        "rasas": ["Sweet"],
+        "effects_on_doshas": {
+          "Vata": "pacifies",
+          "Pitta": "pacifies",
+          "Kapha": "pacifies"
+        }
+      },
+      {
+        "name": "Cucumber",
+        "gunas": ["Heavy", "Cooling"],
+        "rasas": ["Sweet"],
+        "effects_on_doshas": {
+          "Vata": "pacifies",
+          "Pitta": "pacifies",
+          "Kapha": "aggravates"
+        }
+      },
+      {
+        "name": "Leafy Greens (cooked)",
+        "gunas": ["Light", "Dry"],
+        "rasas": ["Bitter", "Astringent"],
+        "effects_on_doshas": {
+          "Vata": "pacifies",
+          "Pitta": "pacifies",
+          "Kapha": "pacifies"
+        }
+      },
+      {
+        "name": "Sweet Potatoes",
+        "gunas": ["Heavy", "Moist"],
+        "rasas": ["Sweet"],
+        "effects_on_doshas": {
+          "Vata": "pacifies",
+          "Pitta": "pacifies",
+          "Kapha": "aggravates"
+        }
+      }
+    ],
+    "grains": [
+      {
+        "name": "Barley",
+        "gunas": ["Light", "Dry"],
+        "rasas": ["Sweet", "Astringent"],
+        "effects_on_doshas": {
+          "Vata": "aggravates",
+          "Pitta": "pacifies",
+          "Kapha": "pacifies"
+        }
+      },
+      {
+        "name": "Oats (cooked)",
+        "gunas": ["Heavy", "Moist"],
+        "rasas": ["Sweet"],
+        "effects_on_doshas": {
+          "Vata": "pacifies",
+          "Pitta": "pacifies",
+          "Kapha": "aggravates"
+        }
+      },
+      {
+        "name": "Quinoa",
+        "gunas": ["Light", "Dry"],
+        "rasas": ["Sweet", "Astringent"],
+        "effects_on_doshas": {
+          "Vata": "pacifies",
+          "Pitta": "pacifies",
+          "Kapha": "pacifies"
+        }
+      },
+      {
+        "name": "Rice (Basmati)",
+        "gunas": ["Light", "Moist"],
+        "rasas": ["Sweet"],
+        "effects_on_doshas": {
+          "Vata": "pacifies",
+          "Pitta": "pacifies",
+          "Kapha": "pacifies"
+        }
+      }
+    ],
+    "legumes": [
+      {
+        "name": "Mung Beans",
+        "gunas": ["Light", "Dry"],
+        "rasas": ["Sweet", "Astringent"],
+        "effects_on_doshas": {
+          "Vata": "pacifies",
+          "Pitta": "pacifies",
+          "Kapha": "pacifies"
+        }
+      },
+      {
+        "name": "Red Lentils",
+        "gunas": ["Light", "Dry"],
+        "rasas": ["Sweet", "Astringent"],
+        "effects_on_doshas": {
+          "Vata": "pacifies",
+          "Pitta": "pacifies",
+          "Kapha": "pacifies"
+        }
+      },
+      {
+        "name": "Chickpeas",
+        "gunas": ["Light", "Dry"],
+        "rasas": ["Astringent"],
+        "effects_on_doshas": {
+          "Vata": "aggravates",
+          "Pitta": "pacifies",
+          "Kapha": "pacifies"
+        }
+      }
+    ],
+    "dairy": [
+      {
+        "name": "Ghee",
+        "gunas": ["Oily", "Cooling"],
+        "rasas": ["Sweet"],
+        "effects_on_doshas": {
+          "Vata": "pacifies",
+          "Pitta": "pacifies",
+          "Kapha": "pacifies in moderation"
+        }
+      },
+      {
+        "name": "Milk (warm)",
+        "gunas": ["Heavy", "Oily"],
+        "rasas": ["Sweet"],
+        "effects_on_doshas": {
+          "Vata": "pacifies",
+          "Pitta": "pacifies",
+          "Kapha": "aggravates"
+        }
+      },
+      {
+        "name": "Yogurt (fresh)",
+        "gunas": ["Heavy", "Oily"],
+        "rasas": ["Sour"],
+        "effects_on_doshas": {
+          "Vata": "pacifies",
+          "Pitta": "aggravates",
+          "Kapha": "aggravates"
+        }
+      }
+    ],
+    "nuts_and_seeds": [
+      {
+        "name": "Almonds (soaked)",
+        "gunas": ["Heavy", "Oily"],
+        "rasas": ["Sweet"],
+        "effects_on_doshas": {
+          "Vata": "pacifies",
+          "Pitta": "pacifies",
+          "Kapha": "aggravates"
+        }
+      },
+      {
+        "name": "Pumpkin Seeds",
+        "gunas": ["Heavy", "Oily"],
+        "rasas": ["Sweet"],
+        "effects_on_doshas": {
+          "Vata": "pacifies",
+          "Pitta": "pacifies",
+          "Kapha": "pacifies"
+        }
+      },
+      {
+        "name": "Sunflower Seeds",
+        "gunas": ["Light", "Oily"],
+        "rasas": ["Sweet"],
+        "effects_on_doshas": {
+          "Vata": "pacifies",
+          "Pitta": "pacifies",
+          "Kapha": "pacifies"
+        }
+      }
+    ],
+    "oils_and_fats": [
+      {
+        "name": "Sesame Oil",
+        "gunas": ["Heavy", "Heating", "Oily"],
+        "rasas": ["Sweet"],
+        "effects_on_doshas": {
+          "Vata": "pacifies",
+          "Pitta": "aggravates",
+          "Kapha": "neutral"
+        }
+      },
+      {
+        "name": "Coconut Oil",
+        "gunas": ["Heavy", "Cooling", "Oily"],
+        "rasas": ["Sweet"],
+        "effects_on_doshas": {
+          "Vata": "pacifies",
+          "Pitta": "pacifies",
+          "Kapha": "aggravates"
+        }
+      },
+      {
+        "name": "Olive Oil",
+        "gunas": ["Heavy", "Heating", "Oily"],
+        "rasas": ["Sweet"],
+        "effects_on_doshas": {
+          "Vata": "pacifies",
+          "Pitta": "pacifies",
+          "Kapha": "aggravates"
+        }
+      }
+    ],
+    "sweeteners": [
+      {
+        "name": "Honey (raw)",
+        "gunas": ["Light", "Dry", "Heating"],
+        "rasas": ["Sweet"],
+        "effects_on_doshas": {
+          "Vata": "pacifies in moderation",
+          "Pitta": "aggravates",
+          "Kapha": "pacifies"
+        }
+      },
+      {
+        "name": "Jaggery",
+        "gunas": ["Heavy", "Heating"],
+        "rasas": ["Sweet"],
+        "effects_on_doshas": {
+          "Vata": "pacifies",
+          "Pitta": "pacifies",
+          "Kapha": "aggravates"
+        }
+      },
+      {
+        "name": "Maple Syrup",
+        "gunas": ["Heavy", "Cooling"],
+        "rasas": ["Sweet"],
+        "effects_on_doshas": {
+          "Vata": "pacifies",
+          "Pitta": "pacifies",
+          "Kapha": "aggravates"
+        }
+      }
+    ]
+  },
+  "herbs": [
+    {
+      "name": "Ashwagandha",
+      "sanskrit_name": "Ashwagandha",
+      "description": "An adaptogenic herb that helps manage stress, reduces anxiety, and improves strength.",
+      "gunas": ["Light", "Oily", "Hot"],
+      "rasas": ["Bitter", "Astringent"],
+      "effects_on_doshas": {
+        "Vata": "pacifies",
+        "Pitta": "aggravates in excess",
+        "Kapha": "pacifies"
+      }
+    },
+    {
+      "name": "Turmeric",
+      "sanskrit_name": "Haridra",
+      "description": "A powerful anti-inflammatory and antioxidant herb.",
+      "gunas": ["Light", "Dry"],
+      "rasas": ["Bitter", "Pungent"],
+      "effects_on_doshas": {
+        "Vata": "neutral",
+        "Pitta": "pacifies",
+        "Kapha": "pacifies"
+      }
+    },
+    {
+      "name": "Ginger (Fresh)",
+      "sanskrit_name": "Ardraka",
+      "description": "A warming herb that aids digestion and reduces inflammation.",
+      "gunas": ["Heavy", "Oily", "Hot"],
+      "rasas": ["Pungent", "Sweet"],
+      "effects_on_doshas": {
+        "Vata": "pacifies",
+        "Pitta": "aggravates",
+        "Kapha": "pacifies"
+      }
+    },
+    {
+      "name": "Neem",
+      "sanskrit_name": "Nimba",
+      "description": "A powerful bitter herb used for detoxification, skin health, and blood purification.",
+      "gunas": ["Light", "Dry", "Cold"],
+      "rasas": ["Bitter", "Astringent"],
+      "effects_on_doshas": {
+        "Vata": "aggravates",
+        "Pitta": "pacifies",
+        "Kapha": "pacifies"
+      }
+    },
+    {
+      "name": "Brahmi",
+      "sanskrit_name": "Brahmi",
+      "description": "A renowned mental tonic, it enhances memory, concentration, and cognitive functions.",
+      "gunas": ["Light", "Cold"],
+      "rasas": ["Bitter", "Astringent"],
+      "effects_on_doshas": {
+        "Vata": "pacifies",
+        "Pitta": "pacifies",
+        "Kapha": "pacifies"
+      }
+    },
+    {
+      "name": "Tulsi (Holy Basil)",
+      "sanskrit_name": "Tulasi",
+      "description": "An adaptogenic herb known for its ability to reduce stress and support the immune system.",
+      "gunas": ["Light", "Dry"],
+      "rasas": ["Pungent", "Bitter"],
+      "effects_on_doshas": {
+        "Vata": "pacifies",
+        "Pitta": "aggravates in excess",
+        "Kapha": "pacifies"
+      }
+    }
+  ],
+  "yoga_asanas": [
+    {
+      "name": "Warrior II",
+      "sanskrit_name": "Virabhadrasana II",
+      "description": "Builds strength, confidence, and stamina.",
+      "balancing_for_doshas": ["Kapha", "Pitta"]
+    },
+    {
+      "name": "Tree Pose",
+      "sanskrit_name": "Vrksasana",
+      "description": "Encourages focus, stability, and balance.",
+      "balancing_for_doshas": ["Vata"]
+    },
+    {
+      "name": "Cobra Pose",
+      "sanskrit_name": "Bhujangasana",
+      "description": "A heart-opening pose that helps reduce Pitta and Kapha.",
+      "balancing_for_doshas": ["Pitta", "Kapha"]
+    },
+    {
+      "name": "Child's Pose",
+      "sanskrit_name": "Balasana",
+      "description": "A calming, restorative pose that soothes the nervous system.",
+      "balancing_for_doshas": ["Vata", "Pitta"]
+    },
+    {
+      "name": "Seated Forward Bend",
+      "sanskrit_name": "Paschimottanasana",
+      "description": "Reduces stress, calms the mind, and stretches the spine.",
+      "balancing_for_doshas": ["Vata", "Pitta"]
+    },
+    {
+      "name": "Sun Salutation (Slow)",
+      "sanskrit_name": "Surya Namaskar",
+      "description": "A gentle, flowing sequence to promote grounding and warmth.",
+      "balancing_for_doshas": ["Vata"]
+    },
+    {
+      "name": "Sun Salutation (Rapid)",
+      "sanskrit_name": "Surya Namaskar",
+      "description": "A vigorous sequence to build heat, energy, and circulation.",
+      "balancing_for_doshas": ["Kapha"]
+    },
+    {
+      "name": "Moon Salutation",
+      "sanskrit_name": "Chandra Namaskar",
+      "description": "A cooling and calming sequence to soothe intensity.",
+      "balancing_for_doshas": ["Pitta"]
+    }
+  ],
+  "pranayama": [
+    {
+      "name": "Alternate Nostril Breathing",
+      "sanskrit_name": "Nadi Shodhana",
+      "description": "A balancing and purifying breath that calms the nervous system.",
+      "balancing_for_doshas": ["Vata", "Pitta"]
+    },
+    {
+      "name": "Cooling Breath",
+      "sanskrit_name": "Shitali",
+      "description": "Involves breathing through a curled tongue to cool the body and mind.",
+      "balancing_for_doshas": ["Pitta"]
+    },
+    {
+      "name": "Bellows Breath",
+      "sanskrit_name": "Bhastrika",
+      "description": "A powerful and energizing breathing practice that increases vitality and clears congestion.",
+      "balancing_for_doshas": ["Kapha"]
+    },
+    {
+      "name": "Victorious Breath",
+      "sanskrit_name": "Ujjayi",
+      "description": "A warming and calming breath that can be used throughout asana practice to build internal heat.",
+      "balancing_for_doshas": ["Vata", "Kapha"]
+    }
+  ],
+  "dinacharya": {
+    "early_morning": [
+      {
+        "activity_name": "Wake Up",
+        "vata_recommendation": "Wake up consistently around 6 AM to establish routine and ground Vata's mobile energy.",
+        "pitta_recommendation": "Wake up before sunrise (around 5:30-6 AM) to harness the cool, peaceful energy of the morning.",
+        "kapha_recommendation": "Wake up before 6 AM (ideally 4:30-5 AM) to prevent sluggishness and bring energy to the day."
+      },
+      {
+        "activity_name": "Cleansing",
+        "vata_recommendation": "Gently scrape your tongue. Use warm sesame oil for oil pulling (Gandusha) to nourish tissues.",
+        "pitta_recommendation": "Scrape your tongue. Use cooling coconut oil for oil pulling to soothe inflammation.",
+        "kapha_recommendation": "Scrape your tongue thoroughly. Use warm sesame or sunflower oil for oil pulling to purify and clear congestion."
+      },
+      {
+        "activity_name": "Morning Hydration",
+        "vata_recommendation": "Drink a glass of warm water, perhaps with a splash of lemon and ginger.",
+        "pitta_recommendation": "Drink a glass of room temperature or cool water, possibly with a little lime.",
+        "kapha_recommendation": "Drink a glass of warm water with a teaspoon of honey and lemon to stimulate metabolism."
+      }
+    ],
+    "morning": [
+      {
+        "activity_name": "Self-Massage (Abhyanga)",
+        "vata_recommendation": "Perform a daily warm sesame oil self-massage to nourish dry skin and calm the nervous system.",
+        "pitta_recommendation": "Use cooling oils like coconut or sunflower oil for self-massage, especially on the head and feet.",
+        "kapha_recommendation": "Perform a vigorous, stimulating dry-brush (Garshana) *before* a light massage with warm mustard or sesame oil to improve circulation."
+      },
+      {
+        "activity_name": "Exercise",
+        "vata_recommendation": "Engage in gentle, grounding yoga, Tai Chi, or walking. Avoid overly strenuous exercise.",
+        "pitta_recommendation": "Practice cooling and calming yoga, swim, or take a walk in nature. Avoid exercising in the midday heat.",
+        "kapha_recommendation": "Perform vigorous, heating exercise like running, cycling, or a strong vinyasa yoga flow to build heat and clear congestion."
+      },
+      {
+        "activity_name": "Breakfast",
+        "vata_recommendation": "Eat a warm, nourishing, and grounding breakfast, like oatmeal or a root vegetable hash.",
+        "pitta_recommendation": "Eat a substantial, cooling breakfast, such as a fruit smoothie, toast with ghee, or a sweet rice porridge.",
+        "kapha_recommendation": "Eat a light, warm breakfast, or skip it entirely if you don't feel hungry. A spiced-up fruit stew is a good option."
+      }
+    ],
+    "mid_day": [
+      {
+        "activity_name": "Lunch (Main Meal)",
+        "vata_recommendation": "Eat your main meal between 12-1 PM in a calm, settled environment. Focus on warm, cooked, and oily foods.",
+        "pitta_recommendation": "Eat your largest meal at noon when digestive fire (Agni) is strongest. Favor cooling foods and avoid spicy or fried items.",
+        "kapha_recommendation": "Eat a moderately sized, well-spiced, warm, and light lunch. Avoid heavy, cold, or excessively oily foods."
+      },
+      {
+        "activity_name": "Post-Lunch",
+        "vata_recommendation": "Take a short, 5-10 minute gentle walk to aid digestion.",
+        "pitta_recommendation": "Take a short, 5-10 minute walk in a cool, shaded area. Avoid direct, hot sun.",
+        "kapha_recommendation": "Take a 10-15 minute walk to stimulate digestion and avoid sluggishness. Avoid napping."
+      }
+    ],
+    "evening": [
+      {
+        "activity_name": "Dinner",
+        "vata_recommendation": "Eat a light, warm, and simple meal (like a hearty soup or kitchari) at least 3 hours before bed.",
+        "pitta_recommendation": "Eat a moderately light, cooling dinner. Avoid spicy, heavy, or sour foods in the evening.",
+        "kapha_recommendation": "Eat a very light, warm, and dry dinner (e.g., a simple soup, steamed vegetables). It's the smallest meal of the day."
+      },
+      {
+        "activity_name": "Wind Down",
+        "vata_recommendation": "Engage in calming activities. Listen to gentle music, read a relaxing book. Avoid intense TV or stimulating conversations.",
+        "pitta_recommendation": "Spend time in nature, meditate, or have a pleasant, light-hearted conversation. Avoid work or arguments.",
+        "kapha_recommendation": "Stay lightly active. Tidy up the house or go for a short, gentle walk. Avoid sinking into the couch right after dinner."
+      }
+    ],
+    "night": [
+      {
+        "activity_name": "Sleep Prep",
+        "vata_recommendation": "Turn off screens an hour before bed. A warm bath or a cup of warm, spiced milk can help. Aim to be in bed by 10 PM.",
+        "pitta_recommendation": "Turn off screens and cool down. Read a book, meditate. Aim to be in bed by 10 PM to utilize the cooling, restorative part of the night.",
+        "kapha_recommendation": "Turn off screens. Aim to be in bed by 10 PM, but no later than 11 PM, to ensure you can wake up early."
+      }
+    ]
+  },
+  "sensory_therapies": {
+    "aromatherapy": [
+      {
+        "dosha": "Vata",
+        "oils": ["Sandalwood", "Geranium", "Frankincense", "Lavender"],
+        "effect": "Grounding and calming"
+      },
+      {
+        "dosha": "Pitta",
+        "oils": ["Jasmine", "Rose", "Mint", "Fennel"],
+        "effect": "Cooling and soothing"
+      },
+      {
+        "dosha": "Kapha",
+        "oils": ["Eucalyptus", "Rosemary", "Clove", "Cedar"],
+        "effect": "Stimulating and uplifting"
+      }
+    ],
+    "color_therapy": [
+      {
+        "dosha": "Vata",
+        "colors": ["Yellow", "Orange", "Gold", "Warm pastels"],
+        "effect": "Warming and stabilizing"
+      },
+      {
+        "dosha": "Pitta",
+        "colors": ["Blue", "Green", "Silver", "White"],
+        "effect": "Cooling and calming"
+      },
+      {
+        "dosha": "Kapha",
+        "colors": ["Red", "Orange", "Yellow", "Bright colors"],
+        "effect": "Energizing and stimulating"
+      }
+    ]
+  },
+  "lifestyle_adjustments": [
+    {
+      "activity_name": "Daily Routine (Dinacharya)",
+      "vata_recommendation": "Maintain a consistent daily schedule, including regular times for sleeping, waking, and eating to ground Vata's mobile nature.",
+      "pitta_recommendation": "Incorporate periods of calm and leisure into your day to cool Pitta's intensity. Avoid over-scheduling.",
+      "kapha_recommendation": "Wake up early, before 6 AM, and engage in vigorous morning exercise to counteract Kapha's sluggishness."
+    },
+    {
+      "activity_name": "Eating Habits",
+      "vata_recommendation": "Sit down to eat your meals in a calm environment. Avoid eating on the go or while distracted.",
+      "pitta_recommendation": "Eat in a peaceful setting and avoid heated or controversial discussions during meals.",
+      "kapha_recommendation": "Practice mindful eating and avoid overeating. Make lunch your largest meal and keep dinner light."
+    },
+    {
+      "activity_name": "Sleep",
+      "vata_recommendation": "Aim for a regular sleep schedule, going to bed by 10 PM. A warm bath or a cup of herbal tea before bed can be calming.",
+      "pitta_recommendation": "Ensure your bedroom is cool and dark. Avoid stimulating activities or arguments before bedtime.",
+      "kapha_recommendation": "Avoid daytime naps and aim to be in bed by 10 PM, waking up early to prevent sluggishness."
+    },
+    {
+      "activity_name": "Exercise",
+      "vata_recommendation": "Opt for gentle, grounding exercises like walking, swimming, tai chi, or restorative yoga.",
+      "pitta_recommendation": "Choose cooling and non-competitive exercises like swimming, hiking in nature, or cycling. Avoid exercising in the midday heat.",
+      "kapha_recommendation": "Engage in vigorous, stimulating activities like jogging, dancing, or high-intensity interval training (HIIT) to boost metabolism."
+    }
+  ],
+  "seasonal_guidelines": {
+    "late_autumn_winter": {
+      "dominant_dosha": "Vata",
+      "guideline": "Focus on warm, nourishing foods and a stable routine. Protect yourself from cold and wind."
+    },
+    "spring": {
+      "dominant_dosha": "Kapha",
+      "guideline": "Favor light, dry, and warm foods. Increase physical activity to counteract sluggishness."
+    },
+    "summer": {
+      "dominant_dosha": "Pitta",
+      "guideline": "Eat cooling, non-spicy foods. Avoid excessive sun exposure and stay hydrated."
+    }
+  }
+}

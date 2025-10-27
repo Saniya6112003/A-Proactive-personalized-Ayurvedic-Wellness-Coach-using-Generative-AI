@@ -1,0 +1,9 @@
+streamlit
+langchain
+langchain_community
+chromadb
+langchain-huggingface
+sentence-transformers
+langchain-ollama
+streamlit-lottie
+requests
