@@ -1,10 +1,9 @@
-
 chromadb
 langchain-huggingface
 sentence-transformers
 streamlit-lottie
 requests
-streamlit==1.33.0
+streamlit             # <<< REMOVE THE VERSION PIN (to pick the latest compatible)
 langchain==1.0.3
 langchain-community==0.4.1
 langchain-openai==1.0.1
