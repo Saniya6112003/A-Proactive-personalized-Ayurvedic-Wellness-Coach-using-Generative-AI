@@ -3,7 +3,7 @@ langchain-huggingface
 sentence-transformers
 streamlit-lottie
 requests
-streamlit             # <<< REMOVE THE VERSION PIN (to pick the latest compatible)
+streamlit==1.50.0   # Updated to latest stable version supporting modern dependencies
 langchain==1.0.3
 langchain-community==0.4.1
 langchain-openai==1.0.1
