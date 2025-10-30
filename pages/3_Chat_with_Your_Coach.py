@@ -6,8 +6,8 @@ from langchain_community.vectorstores import Chroma
 # --- FIX 1: Using ChatOllama is the modern standard for chat models ---
 from langchain_community.chat_models import ChatOllama
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
-from langchain.chains import create_stuff_documents_chain  # Correct path for combining documents
-from langchain import create_history_aware_retriever
+# Highly likely scenario for v1.0 simplification:
+from langchain import create_history_aware_retriever, create_stuff_documents_chain
 from langchain_core.chat_history import BaseChatMessageHistory
 from langchain_community.chat_message_histories import ChatMessageHistory
 
@@ -153,5 +153,6 @@ else:
         st.session_state.chat_messages.append({"role": "assistant", "content": response["answer"]})
         chat_history.add_user_message(prompt)
         chat_history.add_ai_message(response["answer"])
+
 
 
